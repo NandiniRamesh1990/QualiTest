@@ -31,7 +31,7 @@ Then("I find total four items listed in my cart", () => {
         sum += arr2[i];
         total = parseInt(sum);
       }
-        //  expect(total).to.eq(4);
+          expect(total).to.eq(4);
     })
 
 });  
@@ -68,7 +68,7 @@ Then("I am able to verify three items in my cart", () => {
          sum += arr1[i];
          total = parseInt(sum);
        }
-        // expect(total).to.eq(3);
+         expect(total).to.eq(3);
     });
   
 });  
