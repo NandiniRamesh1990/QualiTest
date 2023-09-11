@@ -11,6 +11,8 @@ const addCucumberPreprocessorPlugin =
 
 module.exports = defineConfig({
   e2e: {
+    "projectId": "6cbso8",
+    "chromeWebSecurity": false,
     "baseUrl": "https://cms.demo.katalon.com/",
     specPattern: ["**/*.feature", "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}"],
     setupNodeEvents(on, config) {
